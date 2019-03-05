@@ -1,0 +1,7908 @@
+ccs_annual_CNRM-CM5_rcp85_r8i1p1_CNRM-ALADIN52_v1.nc
+x
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+y
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lambert_conformal_conic
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_winter_ICHEC-EC-EARTH_rcp85_r3i1p1_DMI-HIRHAM5_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_summer_CNRM-CM5_rcp85_r8i1p1_CNRM-ALADIN52_v1.nc
+x
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+y
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lambert_conformal_conic
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_summer_MPI-M-MPI-ESM-LR_rcp45_r2i1p1_MPI-CSC-REMO2009_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_annual_MPI-M-MPI-ESM-LR_rcp85_r1i1p1_CLMcom-CCLM4-8-17_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_summer_ICHEC-EC-EARTH_rcp45_r3i1p1_DMI-HIRHAM5_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_annual_CNRM-CERFACS-CNRM-CM5_rcp45_r1i1p1_CNRM-ALADIN53_v1.nc
+x
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+y
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lambert_conformal_conic
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_summer_MOHC-HadGEM2-ES_rcp45_r1i1p1_CLMcom-CCLM4-8-17_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_annual_ICHEC-EC-EARTH_rcp85_r1i1p1_KNMI-RACMO22E_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_annual_CNRM-CERFACS-CNRM-CM5_rcp85_r1i1p1_SMHI-RCA4_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_summer_ICHEC-EC-EARTH_rcp85_r12i1p1_KNMI-RACMO22E_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_annual_MOHC-HadGEM2-ES_rcp85_r1i1p1_CLMcom-CCLM4-8-17_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_annual_NCC-NorESM1-M_rcp45_r1i1p1_DMI-HIRHAM5_v2.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_winter_MOHC-HadGEM2-ES_rcp26_r1i1p1_SMHI-RCA4_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_winter_IPSL-IPSL-CM5A-MR_rcp85_r1i1p1_SMHI-RCA4_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_annual_MPI-ESM-LR_rcp85_r1i1p1_UNIBELGRADE-EBUPOM2c_v1.nc
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: [u'grid_mapping attribute referencing non-existent variable latitude_longitude']
+	FATAL: []
+	VERSION: []
+tas
+	WARN: []
+	ERROR: [u'grid_mapping attribute referencing non-existent variable latitude_longitude']
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: [u'grid_mapping attribute referencing non-existent variable lambert_conformal_conic']
+	FATAL: []
+	VERSION: []
+crs
+	WARN: ['(3): No standard_name or long_name attribute specified']
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_annual_ICTP-RegCM4_rcp85_r1i1p1_ICTP-RegCM4-3_v1.nc
+x
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+y
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lambert_conformal_conic
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(x): Invalid attribute name: %s', u'(y): Invalid attribute name: %s', u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+_CoordinateAxisTypes
+	WARN: []
+	ERROR: [u'(lambert_conformal_conic): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_winter_ICTP-RegCM4_rcp85_r1i1p1_ICTP-RegCM4-3_v1.nc
+x
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+y
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lambert_conformal_conic
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(x): Invalid attribute name: %s', u'(y): Invalid attribute name: %s', u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+_CoordinateAxisTypes
+	WARN: []
+	ERROR: [u'(lambert_conformal_conic): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_annual_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM4-8-17_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_annual_MPI-M-MPI-ESM-LR_rcp45_r1i1p1_MPI-CSC-REMO2009_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_winter_ICHEC-EC-EARTH_rcp26_r12i1p1_CLMcom-CCLM4-8-17_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_summer_MPI-M-MPI-ESM-LR_rcp85_r2i1p1_MPI-CSC-REMO2009_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_summer_ICHEC-EC-EARTH_rcp26_r3i1p1_DMI-HIRHAM5_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_winter_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM4-8-17_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_annual_MPI-M-MPI-ESM-LR_rcp85_r1i1p1_SMHI-RCA4_v1a.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_annual_CNRM-CERFACS-CNRM-CM5_rcp85_r1i1p1_CLMcom-CCLM4-8-17_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_winter_MOHC-HadGEM2-ES_rcp85_r1i1p1_KNMI-RACMO22E_v2.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_summer_ICHEC-EC-EARTH_rcp85_r3i1p1_DMI-HIRHAM5_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_summer_MPI-M-MPI-ESM-LR_rcp85_r1i1p1_CLMcom-CCLM4-8-17_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_winter_CNRM-CERFACS-CNRM-CM5_rcp85_r1i1p1_SMHI-RCA4_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_winter_MOHC-HadGEM2-ES_rcp85_r1i1p1_SMHI-RCA4_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_winter_MOHC-HadGEM2-ES_rcp45_r1i1p1_SMHI-RCA4_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_annual_MPI-M-MPI-ESM-LR_rcp45_r2i1p1_MPI-CSC-REMO2009_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_summer_MPI-M-MPI-ESM-LR_rcp85_r1i1p1_MPI-CSC-REMO2009_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_summer_MOHC-HadGEM2-ES_rcp85_r1i1p1_SMHI-RCA4_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_summer_MOHC-HadGEM2-ES_rcp45_r1i1p1_SMHI-RCA4_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_annual_ICHEC-EC-EARTH_rcp45_r12i1p1_KNMI-RACMO22E_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_summer_IPSL-IPSL-CM5A-MR_rcp45_r1i1p1_SMHI-RCA4_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_summer_MPI-M-MPI-ESM-LR_rcp45_r1i1p1_MPI-CSC-REMO2009_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_annual_MOHC-HadGEM2-ES_rcp26_r1i1p1_SMHI-RCA4_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_winter_ICHEC-EC-EARTH_rcp45_r3i1p1_DMI-HIRHAM5_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_winter_CNRM-CERFACS-CNRM-CM5_rcp85_r1i1p1_CNRM-ALADIN53_v1.nc
+x
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+y
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lambert_conformal_conic
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_summer_IPSL-IPSL-CM5A-MR_rcp85_r1i1p1_SMHI-RCA4_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_annual_MPI-M-MPI-ESM-LR_rcp26_r1i1p1_SMHI-RCA4_v1a.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_summer_CNRM-CERFACS-CNRM-CM5_rcp85_r1i1p1_CLMcom-CCLM4-8-17_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_summer_ICHEC-EC-EARTH_rcp85_r12i1p1_CLMcom-CCLM4-8-17_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_summer_CNRM-CERFACS-CNRM-CM5_rcp45_r1i1p1_CLMcom-CCLM4-8-17_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_winter_NCC-NorESM1-M_rcp85_r1i1p1_DMI-HIRHAM5_v2.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_summer_CNRM-CERFACS-CNRM-CM5_rcp45_r1i1p1_SMHI-RCA4_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_winter_MPI-M-MPI-ESM-LR_rcp45_r1i1p1_MPI-CSC-REMO2009_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_summer_MOHC-HadGEM2-ES_rcp85_r1i1p1_KNMI-RACMO22E_v2.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_annual_ICHEC-EC-EARTH_rcp26_r12i1p1_KNMI-RACMO22E_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_winter_ICHEC-EC-EARTH_rcp45_r12i1p1_KNMI-RACMO22E_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_winter_MPI-M-MPI-ESM-LR_rcp85_r2i1p1_MPI-CSC-REMO2009_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_winter_MPI-M-MPI-ESM-LR_rcp26_r1i1p1_SMHI-RCA4_v1a.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_winter_ICHEC-EC-EARTH_rcp45_r12i1p1_CLMcom-CCLM4-8-17_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_winter_MOHC-HadGEM2-ES_rcp45_r1i1p1_CLMcom-CCLM4-8-17_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_summer_ICHEC-EC-EARTH_rcp26_r12i1p1_CLMcom-CCLM4-8-17_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_summer_MOHC-HadGEM2-ES_rcp85_r1i1p1_CLMcom-CCLM4-8-17_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_summer_ICHEC-EC-EARTH_rcp85_r1i1p1_KNMI-RACMO22E_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_winter_IPSL-IPSL-CM5A-MR_rcp45_r1i1p1_IPSL-INERIS-WRF331F_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_annual_ICHEC-EC-EARTH_rcp26_r3i1p1_DMI-HIRHAM5_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_summer_IPSL-IPSL-CM5A-MR_rcp45_r1i1p1_IPSL-INERIS-WRF331F_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_winter_CNRM-CERFACS-CNRM-CM5_rcp45_r1i1p1_SMHI-RCA4_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_annual_ICHEC-EC-EARTH_rcp26_r12i1p1_CLMcom-CCLM4-8-17_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_winter_IPSL-IPSL-CM5A-MR_rcp85_r1i1p1_IPSL-INERIS-WRF331F_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_annual_IPSL-IPSL-CM5A-MR_rcp45_r1i1p1_SMHI-RCA4_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_winter_MOHC-HadGEM2-ES_rcp45_r1i1p1_KNMI-RACMO22E_v2.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_winter_MPI-ESM-LR_rcp85_r1i1p1_UNIBELGRADE-EBUPOM2c_v1.nc
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: [u'grid_mapping attribute referencing non-existent variable latitude_longitude']
+	FATAL: []
+	VERSION: []
+tas
+	WARN: []
+	ERROR: [u'grid_mapping attribute referencing non-existent variable latitude_longitude']
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: [u'grid_mapping attribute referencing non-existent variable lambert_conformal_conic']
+	FATAL: []
+	VERSION: []
+crs
+	WARN: ['(3): No standard_name or long_name attribute specified']
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_winter_CNRM-CERFACS-CNRM-CM5_rcp26_r1i1p1_CNRM-ALADIN53_v1.nc
+x
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+y
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lambert_conformal_conic
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_summer_NCC-NorESM1-M_rcp85_r1i1p1_DMI-HIRHAM5_v2.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_summer_ICHEC-EC-EARTH_rcp45_r12i1p1_CLMcom-CCLM4-8-17_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_annual_IPSL-IPSL-CM5A-MR_rcp85_r1i1p1_IPSL-INERIS-WRF331F_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_annual_IPSL-IPSL-CM5A-MR_rcp45_r1i1p1_IPSL-INERIS-WRF331F_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_winter_MPI-M-MPI-ESM-LR_rcp45_r1i1p1_SMHI-RCA4_v1a.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_annual_MPI-M-MPI-ESM-LR_rcp85_r1i1p1_MPI-CSC-REMO2009_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_winter_IPSL-IPSL-CM5A-MR_rcp45_r1i1p1_SMHI-RCA4_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_annual_MPI-M-MPI-ESM-LR_rcp85_r2i1p1_MPI-CSC-REMO2009_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_winter_MOHC-HadGEM2-ES_rcp85_r1i1p1_CLMcom-CCLM4-8-17_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_annual_MOHC-HadGEM2-ES_rcp45_r1i1p1_SMHI-RCA4_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_summer_CNRM-CERFACS-CNRM-CM5_rcp85_r1i1p1_SMHI-RCA4_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_summer_ICTP-RegCM4_rcp85_r1i1p1_ICTP-RegCM4-3_v1.nc
+x
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+y
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lambert_conformal_conic
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(x): Invalid attribute name: %s', u'(y): Invalid attribute name: %s', u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+_CoordinateAxisTypes
+	WARN: []
+	ERROR: [u'(lambert_conformal_conic): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_annual_NCC-NorESM1-M_rcp85_r1i1p1_DMI-HIRHAM5_v2.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_annual_ICHEC-EC-EARTH_rcp85_r12i1p1_KNMI-RACMO22E_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_winter_ICHEC-EC-EARTH_rcp45_r1i1p1_KNMI-RACMO22E_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_annual_MOHC-HadGEM2-ES_rcp85_r1i1p1_KNMI-RACMO22E_v2.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_summer_MPI-ESM-LR_rcp85_r1i1p1_UNIBELGRADE-EBUPOM2c_v1.nc
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: [u'grid_mapping attribute referencing non-existent variable latitude_longitude']
+	FATAL: []
+	VERSION: []
+tas
+	WARN: []
+	ERROR: [u'grid_mapping attribute referencing non-existent variable latitude_longitude']
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: [u'grid_mapping attribute referencing non-existent variable lambert_conformal_conic']
+	FATAL: []
+	VERSION: []
+crs
+	WARN: ['(3): No standard_name or long_name attribute specified']
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_summer_MPI-M-MPI-ESM-LR_rcp45_r1i1p1_SMHI-RCA4_v1a.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_summer_ICHEC-EC-EARTH_rcp45_r1i1p1_KNMI-RACMO22E_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_summer_MOHC-HadGEM2-ES_rcp45_r1i1p1_KNMI-RACMO22E_v2.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_winter_MPI-M-MPI-ESM-LR_rcp45_r2i1p1_MPI-CSC-REMO2009_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_summer_IPSL-IPSL-CM5A-MR_rcp85_r1i1p1_IPSL-INERIS-WRF331F_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_annual_ICHEC-EC-EARTH_rcp45_r3i1p1_DMI-HIRHAM5_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_summer_MPI-M-MPI-ESM-LR_rcp26_r1i1p1_SMHI-RCA4_v1a.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_summer_NCC-NorESM1-M_rcp45_r1i1p1_DMI-HIRHAM5_v2.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_summer_MPI-M-MPI-ESM-LR_rcp85_r1i1p1_SMHI-RCA4_v1a.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_winter_MPI-M-MPI-ESM-LR_rcp85_r1i1p1_CLMcom-CCLM4-8-17_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_annual_ICHEC-EC-EARTH_rcp45_r1i1p1_KNMI-RACMO22E_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_summer_CNRM-CERFACS-CNRM-CM5_rcp26_r1i1p1_CNRM-ALADIN53_v1.nc
+x
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+y
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lambert_conformal_conic
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_winter_CNRM-CERFACS-CNRM-CM5_rcp45_r1i1p1_CLMcom-CCLM4-8-17_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_winter_CNRM-CERFACS-CNRM-CM5_rcp45_r1i1p1_CNRM-ALADIN53_v1.nc
+x
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+y
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lambert_conformal_conic
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_winter_MPI-M-MPI-ESM-LR_rcp85_r1i1p1_MPI-CSC-REMO2009_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_annual_CNRM-CERFACS-CNRM-CM5_rcp26_r1i1p1_CNRM-ALADIN53_v1.nc
+x
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+y
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lambert_conformal_conic
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_summer_MOHC-HadGEM2-ES_rcp26_r1i1p1_SMHI-RCA4_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_annual_MPI-M-MPI-ESM-LR_rcp45_r1i1p1_CLMcom-CCLM4-8-17_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_annual_CNRM-CERFACS-CNRM-CM5_rcp45_r1i1p1_SMHI-RCA4_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_winter_CNRM-CERFACS-CNRM-CM5_rcp85_r1i1p1_CLMcom-CCLM4-8-17_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_summer_MPI-M-MPI-ESM-LR_rcp45_r1i1p1_CLMcom-CCLM4-8-17_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_annual_MPI-M-MPI-ESM-LR_rcp45_r1i1p1_SMHI-RCA4_v1a.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_winter_MPI-M-MPI-ESM-LR_rcp85_r1i1p1_SMHI-RCA4_v1a.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_annual_ICHEC-EC-EARTH_rcp85_r3i1p1_DMI-HIRHAM5_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_winter_ICHEC-EC-EARTH_rcp85_r1i1p1_KNMI-RACMO22E_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_summer_CNRM-CERFACS-CNRM-CM5_rcp45_r1i1p1_CNRM-ALADIN53_v1.nc
+x
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+y
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lambert_conformal_conic
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_summer_ICHEC-EC-EARTH_rcp45_r12i1p1_KNMI-RACMO22E_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_annual_ICHEC-EC-EARTH_rcp45_r12i1p1_CLMcom-CCLM4-8-17_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_summer_CNRM-CERFACS-CNRM-CM5_rcp85_r1i1p1_CNRM-ALADIN53_v1.nc
+x
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+y
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lambert_conformal_conic
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_winter_ICHEC-EC-EARTH_rcp26_r12i1p1_KNMI-RACMO22E_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_winter_ICHEC-EC-EARTH_rcp85_r12i1p1_KNMI-RACMO22E_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_annual_MOHC-HadGEM2-ES_rcp45_r1i1p1_KNMI-RACMO22E_v2.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_summer_ICHEC-EC-EARTH_rcp26_r12i1p1_KNMI-RACMO22E_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_winter_CNRM-CM5_rcp85_r8i1p1_CNRM-ALADIN52_v1.nc
+x
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+y
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lambert_conformal_conic
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_annual_CNRM-CERFACS-CNRM-CM5_rcp45_r1i1p1_CLMcom-CCLM4-8-17_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_annual_IPSL-IPSL-CM5A-MR_rcp85_r1i1p1_SMHI-RCA4_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_annual_CNRM-CERFACS-CNRM-CM5_rcp85_r1i1p1_CNRM-ALADIN53_v1.nc
+x
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+y
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lambert_conformal_conic
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_winter_MPI-M-MPI-ESM-LR_rcp45_r1i1p1_CLMcom-CCLM4-8-17_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_annual_MOHC-HadGEM2-ES_rcp45_r1i1p1_CLMcom-CCLM4-8-17_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_winter_ICHEC-EC-EARTH_rcp26_r3i1p1_DMI-HIRHAM5_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_annual_MOHC-HadGEM2-ES_rcp85_r1i1p1_SMHI-RCA4_v1.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------
+ccs_winter_NCC-NorESM1-M_rcp45_r1i1p1_DMI-HIRHAM5_v2.nc
+rlon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rlat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+time
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lat
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+lon
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+pr
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmax
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+tasmin
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rsds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+rotated_latitude_longitude
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+climatology_bounds
+	WARN: []
+	ERROR: []
+	FATAL: []
+	VERSION: []
+_CoordinateAxisType
+	WARN: []
+	ERROR: [u'(lat): Invalid attribute name: %s', u'(lon): Invalid attribute name: %s']
+	FATAL: []
+	VERSION: []
+------------------

@@ -1,9 +1,6 @@
 import iris
-import iris.quickplot as qplt
-import iris.plot as iplt
 from iris.experimental.equalise_cubes import equalise_attributes
 
-import matplotlib.pyplot as plt
 import cartopy.crs as ccrs
 import os
 import numpy as np
@@ -15,11 +12,11 @@ warnings.filterwarnings("ignore")
 
 class Cmst(object):
     """
-    class for climaproof model selection tool
+    Class for climaproof model selection tool data preparation
     """
 
     def __init__(self, sel_bbox, sel_time_mean="annual",
-                 sel_experiment = 'rcp45', work_dir='work'):
+                 sel_experiment='rcp45', data_dir='data'):
         """
         Args:
         * call_func (callable):
@@ -28,7 +25,7 @@ class Cmst(object):
         * observation (:class:`.io.Dataset`):
             the observation dataset
         Kwargs:
-        * work_dir (path):
+        * data_dir (path):
             directory where intermediate files will be written
         """
 
@@ -48,10 +45,10 @@ class Cmst(object):
         self.sel_bbox = sel_bbox
         self.sel_time_mean = sel_time_mean
         self.sel_experiment = sel_experiment
-        self.work_dir = work_dir
+        self.data_dir = data_dir
 
         self.cl_ccs = iris.load_raw(
-            os.path.join(work_dir,"ccs_{}_*_{}_*.nc".format(self.sel_time_mean, self.sel_experiment))
+            os.path.join(data_dir,"ccs_{}_*_{}_*.nc".format(self.sel_time_mean, self.sel_experiment))
         )
 
 

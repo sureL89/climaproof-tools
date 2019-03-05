@@ -4,15 +4,17 @@ Climaproof Model Selection Tool
 # Install Model Selection Tool
 
 ## Linux
-git clone
-docker build --rm -t jupyter/climaproof-notebook .
+git clone 
+docker build --rm -t climaproof/mst .
 
 ## Windows
 
 # Use Model Selection Tool
 
 ## Linux
-docker run -p 8888:8888 -v "$PWD/data":/home/jovyan/work jupyter/climaproof-notebook
+docker run -t -i -p 5100:5100 climaproof/mst
+
+Open your Browser (e.g. Firefox) <http://127.0.0.7:5100>
 
 
 ## Windows

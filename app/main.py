@@ -1,7 +1,6 @@
 import bokeh.plotting as bpl
 import bokeh.models as bmo
 import bokeh as bo
-from bokeh.palettes import Spectral6
 from cmst import Cmst
 import numpy as np
 import json
@@ -34,7 +33,6 @@ show_spinner_js = """
 div_spinner.text = spinner_text
 """
 
-div_spinner = bmo.widgets.Div(text="",width=120,height=120)
 def show_spinner():
     div_spinner.text = spinner_text
 
@@ -47,7 +45,7 @@ def get_dataset():
                     'lon': np.array(json.loads(inp_lon.value))}
 
     cmst_upd = Cmst(bounding_box, sel_time_mean=inp_time_mean.value,
-                   sel_experiment = inp_exp.value, work_dir='../data')
+                    sel_experiment = inp_exp.value, data_dir="/app/data")
 
     return cmst_upd
 
@@ -96,42 +94,44 @@ def gen_upd_plot(event):
         div_spinner.text="""
         <div align="left" text-align="left">
         <h2>Error!</h2>
-        <p text-align="left">Please check if your bounding box values latitude and longitude are within the project region</p>
+        <p text-align="left">
+        Please check if your bounding box values latitude and
+        longitude are within the project region
+        </p>
         </div>
         """
-
 
 
 # ----------------------------------------------------------------
 #                               MAIN
 # ----------------------------------------------------------------
 
-# bounding_box = {'lat': np.array([39.6, 42.7]),
-#                 'lon': np.array([19.3, 21.0])}
-
-#pdf_init = Cmst(bounding_box, sel_time_mean="annual",sel_experiment = 'rcp26', work_dir='../data')
-
+# Tooltip when hovering over circle
 hover = bmo.HoverTool(
     tooltips=[
         ('model', '@index'),
+        ('tasmin', '@tasmin'),
         ('tasmax', '@tasmax'),
-        ('pr', '@pr')
+        ('pr', '@pr'),
+        ('rsds', '@rsds')
     ]
 )
 
-TOOLS = "pan,wheel_zoom,box_zoom,reset,box_select,lasso_select, save"
-
+# Columns for Table
 columns = [
     bmo.widgets.TableColumn(field="index", title="model"),
     bmo.widgets.TableColumn(field="pr_percentiles", title="pr Percentile", width=70),
     bmo.widgets.TableColumn(field="tasmin_percentiles", title="Tmin Perc.", width=65),
     bmo.widgets.TableColumn(field="tasmax_percentiles", title="Tmax Perc.", width=65),
     bmo.widgets.TableColumn(field="rsds_percentiles", title="Rsds Perc.", width=65),
-#    bmo.widgets.TableColumn(field="tasmax", title="tasmax"),
-#    bmo.widgets.TableColumn(field="pr", title="pr"),
 ]
 
-desc = bmo.Div(text=open(join(dirname(__file__), "description.html")).read(), width=800)
+# Tools to show in toolbox
+TOOLS = "pan,wheel_zoom,box_zoom,reset,box_select,save"
+
+# Load description from file
+desc = bmo.Div(text=open(join(dirname(__file__), "description.html")).read(),
+               width=800)
 
 # Create empty panel with empty tabs
 ls_tab = []
@@ -139,19 +139,31 @@ pdf_ts = {}
 
 tabs = bmo.widgets.Tabs(tabs=ls_tab)
 
+# Create empty div for spinner
+div_spinner = bmo.widgets.Div(text="",width=120,height=120)
 
 # Create Input controls
-inp_lat = bmo.widgets.TextInput(title="Latitude (Format: [MIN, MAX])", value = "[39.6, 42.7]" )
-inp_lon = bmo.widgets.TextInput(title="Longitude (Format: [MIN, MAX])", value = "[19.3, 21.0]" )
-inp_time_mean = bmo.widgets.Select(title="Seasonal/Annual Mean:", value="annual", options=["annual", "summer", "winter"])
-inp_exp = bmo.widgets.Select(title="Experiment:", value="rcp26", options=["rcp26", "rcp45", "rcp85"])
-inp_gen_upd= bmo.widgets.Button(label="Create Visualization", button_type="success")
+inp_lat = bmo.widgets.TextInput(title="Latitude (Format: [MIN, MAX])",
+                                value = "[39.6, 42.7]" )
+inp_lon = bmo.widgets.TextInput(title="Longitude (Format: [MIN, MAX])",
+                                value = "[19.3, 21.0]" )
+inp_time_mean = bmo.widgets.Select(title="Seasonal/Annual Mean:",
+                                   value="annual",
+                                   options=["annual", "summer", "winter"])
+inp_exp = bmo.widgets.Select(title="Experiment:",
+                             value="rcp26",
+                             options=["rcp26", "rcp45", "rcp85"])
+inp_gen_upd= bmo.widgets.Button(label="Create Visualization",
+                                button_type="success")
 #x_axis = bmo.widgets.Select(title="X Axis", options=sorted(axis_map.keys()), value="Tomato Meter")
 #y_axis = bmo.widgets.Select(title="Y Axis", options=sorted(axis_map.keys()), value="Number of Reviews")
 
 # Handle on click_events (unfortunately show spinner with js due to lag otherwise)
 inp_gen_upd.on_event(bo.events.ButtonClick, gen_upd_plot)
-inp_gen_upd.js_on_event(bo.events.ButtonClick, bmo.CustomJS(args=dict(div_spinner=div_spinner, spinner_text=spinner_text), code=show_spinner_js))
+inp_gen_upd.js_on_event(
+    bo.events.ButtonClick,
+    bmo.CustomJS(args=dict(div_spinner=div_spinner, spinner_text=spinner_text),
+                 code=show_spinner_js))
 
 inputs = bo.layouts.row([
     bo.layouts.column([

@@ -17,9 +17,5 @@ Open your Browser (e.g. Firefox) <http://127.0.0.1:5100>
 
 ## Model Selection Tool in your Browser
 
-
-- Export table csv
-- Countries (Latitude, Longitude) Selection (Albania, Servia, Montenegro, Kosovo!, ...)
 - Data TODO projetions
-- Link all tables
 - If time: Colors

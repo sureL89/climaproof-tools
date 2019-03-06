@@ -52,42 +52,15 @@ def get_dataset():
 
 def gen_upd_plot(event):
     try:
+        ls_tab = []
         if inp_gen_upd.label != "Update":
             cmst_upd = get_dataset()
 
             for k in cmst_upd.time_selector:
                 pdf_ts[k] = bmo.ColumnDataSource(data=cmst_upd.get_pandas_df(k))
 
-                # Create plot
-                p[k] = bpl.figure(tools=[TOOLS,hover],toolbar_location="right")
-                p[k].circle(x='tasmax', y='pr',
-                            source = pdf_ts[k],
-                            size=12)
-
-                p[k].xaxis.axis_label = "climate change signal tasmax"
-                p[k].yaxis.axis_label = "climate change signal pr"
-
-                # Horizontal line
-                hline = bmo.Span(location=0, dimension='width', line_color='black', line_width=3)
-                vline = bmo.Span(location=0, dimension='height', line_color='black', line_width=3)
-                p[k].renderers.extend([vline, hline])
-
-                # Create table
-                # Create table
-                columns = [
-                    bmo.widgets.TableColumn(field="index", title="model"),
-                    bmo.widgets.TableColumn(field="{}".format(inp_xaxis.value), title="{}".format(inp_xaxis.value.title()), width=65),
-                    bmo.widgets.TableColumn(field="{}_percentiles".format(inp_xaxis.value), title="{} Perc.".format(inp_xaxis.value.title()), width=70),
-                    bmo.widgets.TableColumn(field="{}".format(inp_yaxis.value), title="{}".format(inp_yaxis.value.title()), width=65),
-                    bmo.widgets.TableColumn(field="{}_percentiles".format(inp_yaxis.value), title="{} Perc.".format(inp_yaxis.value.title()), width=70),
-                ]
-
-                data_table = bmo.widgets.DataTable(source=pdf_ts[k], columns=columns, fit_columns=False,
-                                                selectable='checkbox', height=p[k].plot_height, index_position=None)
-
-                l_panel = bo.layouts.row([p[k], data_table])
-
-                ls_tab.append(bmo.widgets.Panel(child=l_panel, title=k))
+                # Create panel
+                ls_tab.append(create_panel(k))
 
             tabs = bo.layouts.column([
                 bo.layouts.row([inp_xaxis, inp_yaxis]),
@@ -98,10 +71,23 @@ def gen_upd_plot(event):
 
         else:
             cmst_upd = get_dataset()
-            pdf_ts_upd = {}
-            for k in cmst_upd.time_selector:
-                pdf_ts_upd = bmo.ColumnDataSource(data=cmst_upd.get_pandas_df(k))
-                pdf_ts[k].data.update(pdf_ts_upd.data)
+
+            for k in pdf_ts:
+                pdf_ts[k] = bmo.ColumnDataSource(data=cmst_upd.get_pandas_df(k))
+
+                # Create panel
+                ls_tab.append(create_panel(k))
+
+            tabs = bo.layouts.column([
+                bo.layouts.row([inp_xaxis, inp_yaxis]),
+                bo.layouts.row([bmo.widgets.Tabs(tabs=ls_tab)]),
+            ])
+            l.children[-1] = tabs
+
+            #pdf_ts_upd = {}
+            # for k in cmst_upd.time_selector:
+            #     pdf_ts_upd = bmo.ColumnDataSource(data=cmst_upd.get_pandas_df(k))
+            #     pdf_ts[k].data.update(pdf_ts_upd.data)
 
         hide_spinner()
     except:
@@ -115,45 +101,13 @@ def gen_upd_plot(event):
         </div>
         """
 
+
 def upd_axis(attrname, old, new):
-
-    # city = city_select.value
-    # plot.title.text = "Weather data for " + cities[city]['title']
-
-    # src = get_dataset(df, cities[city]['airport'], distribution_select.value)
-    # source.data.update(src.data)
     ls_tab = []
 
     for k in pdf_ts:
         # Create plot
-        p[k] = bpl.figure(tools=[TOOLS,hover],toolbar_location="right")
-        p[k].circle(x=inp_xaxis.value, y=inp_yaxis.value,
-                    source = pdf_ts[k],
-                    size=12)
-
-        p[k].xaxis.axis_label = "climate change signal {}".format(inp_xaxis.value)
-        p[k].yaxis.axis_label = "climate change signal {}".format(inp_yaxis.value)
-
-        # Horizontal line
-        hline = bmo.Span(location=0, dimension='width', line_color='black', line_width=3)
-        vline = bmo.Span(location=0, dimension='height', line_color='black', line_width=3)
-        p[k].renderers.extend([vline, hline])
-
-        # Create table
-        columns = [
-            bmo.widgets.TableColumn(field="index", title="model"),
-            bmo.widgets.TableColumn(field="{}".format(inp_xaxis.value), title="{}".format(inp_xaxis.value.title()), width=65),
-            bmo.widgets.TableColumn(field="{}_percentiles".format(inp_xaxis.value), title="{} Perc.".format(inp_xaxis.value.title()), width=70),
-            bmo.widgets.TableColumn(field="{}".format(inp_yaxis.value), title="{}".format(inp_yaxis.value.title()), width=65),
-            bmo.widgets.TableColumn(field="{}_percentiles".format(inp_yaxis.value), title="{} Perc.".format(inp_yaxis.value.title()), width=70),
-        ]
-
-        data_table = bmo.widgets.DataTable(source=pdf_ts[k], columns=columns, fit_columns=False,
-                                        selectable='checkbox', height=p[k].plot_height, index_position=None)
-
-        l_panel = bo.layouts.row([p[k], data_table])
-
-        ls_tab.append(bmo.widgets.Panel(child=l_panel, title=k))
+        ls_tab.append(create_panel(k))
 
     tabs = bo.layouts.column([
         bo.layouts.row([inp_xaxis, inp_yaxis]),
@@ -162,10 +116,64 @@ def upd_axis(attrname, old, new):
     l.children[-1] = tabs
 
 
+def create_panel(k):
+    # Create plot
+    p[k] = bpl.figure(tools=[TOOLS,hover],toolbar_location="right")
+    p[k].circle(x=inp_xaxis.value, y=inp_yaxis.value,
+                source = pdf_ts[k],
+                size=12)
+
+    p[k].xaxis.axis_label = "climate change signal {}".format(inp_xaxis.value)
+    p[k].yaxis.axis_label = "climate change signal {}".format(inp_yaxis.value)
+
+    # Horizontal line
+    hline = bmo.Span(location=0, dimension='width', line_color='black', line_width=3)
+    vline = bmo.Span(location=0, dimension='height', line_color='black', line_width=3)
+    p[k].renderers.extend([vline, hline])
+
+    # Create table
+    columns = [
+        bmo.widgets.TableColumn(field="index", title="model"),
+        bmo.widgets.TableColumn(field="{}".format(inp_xaxis.value), title="{}".format(inp_xaxis.value.title()), width=65,formatter=bmo.NumberFormatter(format="0.000")),
+        bmo.widgets.TableColumn(field="{}_percentiles".format(inp_xaxis.value), title="{} Perc.".format(inp_xaxis.value.title()), width=70,formatter=bmo.NumberFormatter(format="0.000")),
+        bmo.widgets.TableColumn(field="{}".format(inp_yaxis.value), title="{}".format(inp_yaxis.value.title()), width=65,formatter=bmo.NumberFormatter(format="0.000")),
+        bmo.widgets.TableColumn(field="{}_percentiles".format(inp_yaxis.value), title="{} Perc.".format(inp_yaxis.value.title()), width=70,formatter=bmo.NumberFormatter(format="0.000")),
+    ]
+
+    data_table = bmo.widgets.DataTable(source=pdf_ts[k], columns=columns, fit_columns=False,
+                                    selectable='checkbox', height=p[k].plot_height-100, index_position=None)
+    down_button = bmo.widgets.Button(label="Download CSV", button_type="primary")
+    down_button.callback = bmo.CustomJS(args=dict(source=pdf_ts[k], filename="{}_{}_{}.csv".format(k, inp_time_mean.value, inp_exp.value)),
+                                        code=open(join(dirname(__file__), "download.js")).read())
+
+    l_panel = bo.layouts.row([
+        bo.layouts.column([p[k]]),
+        bo.layouts.column([down_button, data_table]),
+        ])
+
+    panel = bmo.widgets.Panel(child=l_panel, title=k)
+
+    return panel
+
+def upd_lat_lon(attrname, old, new):
+    inp_lat.value = str(bbox_countries[new]['lat'])
+    inp_lon.value = str(bbox_countries[new]['lon'])
 
 # ----------------------------------------------------------------
 #                               MAIN
 # ----------------------------------------------------------------
+
+bbox_countries = {
+    "Whole Domain": {"lat":[38, 47], "lon": [13, 25]},
+    "Albania": {"lat":[39.583, 42.659], "lon": [19, 21.05]},
+    "Bosnia and Herzegovina": {"lat":[42.558, 45.268], "lon": [15.746, 19.671]},
+    "Croatia": {"lat":[42.367, 46.527], "lon": [13.484, 19.391]},
+    "Kosovo": {"lat":[41.8577, 43.2696], "lon": [20.0141, 21.7894]},
+    "Macedonia": {"lat":[40.867, 42.373], "lon": [20.405, 23.033]},
+    "Montenegro": {"lat":[41.864, 43.548], "lon": [18.438, 20.345]},
+    "Serbia": {"lat":[41.844, 46.167], "lon": [18.859, 22.967]},
+    "Slovenia": {"lat":[44.083, 46.933], "lon": [13.427, 17.467]},
+}
 
 # Tooltip when hovering over circle
 hover = bmo.HoverTool(
@@ -197,10 +205,14 @@ tabs = bmo.widgets.Tabs(tabs=ls_tab)
 div_spinner = bmo.widgets.Div(text="",width=120,height=120)
 
 # Create Input controls
+inp_country = bmo.widgets.Select(title="Country",
+                                 value = "Whole Domain",
+                                 options = list(bbox_countries.keys()))
 inp_lat = bmo.widgets.TextInput(title="Latitude (Format: [MIN, MAX])",
-                                value = "[39.6, 42.7]" )
+                                value = "[38, 47]" )
 inp_lon = bmo.widgets.TextInput(title="Longitude (Format: [MIN, MAX])",
-                                value = "[19.3, 21.0]" )
+                                value = "[13, 25]" )
+
 inp_time_mean = bmo.widgets.Select(title="Seasonal/Annual Mean:",
                                    value="annual",
                                    options=["annual", "summer", "winter"])
@@ -216,11 +228,11 @@ inp_xaxis = bmo.widgets.Select(title="X-Axis:",
 inp_yaxis = bmo.widgets.Select(title="Y-Axis:",
                              value="pr",
                              options=["tasmin", "tasmax", "pr", "rsds"])
-#x_axis = bmo.widgets.Select(title="X Axis", options=sorted(axis_map.keys()), value="Tomato Meter")
-#y_axis = bmo.widgets.Select(title="Y Axis", options=sorted(axis_map.keys()), value="Number of Reviews")
 
 inp_xaxis.on_change('value', upd_axis)
 inp_yaxis.on_change('value', upd_axis)
+
+inp_country.on_change('value', upd_lat_lon)
 
 # Handle on click_events (unfortunately show spinner with js due to lag otherwise)
 inp_gen_upd.on_event(bo.events.ButtonClick, gen_upd_plot)
@@ -231,7 +243,7 @@ inp_gen_upd.js_on_event(
 
 inputs = bo.layouts.row([
     bo.layouts.column([
-        bo.layouts.row([inp_lat, inp_lon]),
+        bo.layouts.row([inp_lat, inp_lon, inp_country]),
         bo.layouts.row([inp_time_mean, inp_exp]),
         bo.layouts.row([inp_gen_upd])
     ]),

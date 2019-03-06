@@ -45,40 +45,54 @@ def get_dataset():
                     'lon': np.array(json.loads(inp_lon.value))}
 
     cmst_upd = Cmst(bounding_box, sel_time_mean=inp_time_mean.value,
-                    sel_experiment = inp_exp.value, data_dir="/app/data")
+                    sel_experiment = inp_exp.value, data_dir="./data")
 
     return cmst_upd
+
 
 def gen_upd_plot(event):
     try:
         if inp_gen_upd.label != "Update":
-            cmst_init = get_dataset()
+            cmst_upd = get_dataset()
 
-            for k in cmst_init.time_selector:
-                pdf_ts[k] = bmo.ColumnDataSource(data=cmst_init.get_pandas_df(k))
+            for k in cmst_upd.time_selector:
+                pdf_ts[k] = bmo.ColumnDataSource(data=cmst_upd.get_pandas_df(k))
 
                 # Create plot
-                p = bpl.figure(tools=[TOOLS,hover],toolbar_location="right")
-                p.circle(x='tasmax', y='pr',
-                    source = pdf_ts[k],
-                    size=12)
+                p[k] = bpl.figure(tools=[TOOLS,hover],toolbar_location="right")
+                p[k].circle(x='tasmax', y='pr',
+                            source = pdf_ts[k],
+                            size=12)
 
-                p.xaxis.axis_label = "climate change signal tasmax"
-                p.yaxis.axis_label = "climate change signal pr"
+                p[k].xaxis.axis_label = "climate change signal tasmax"
+                p[k].yaxis.axis_label = "climate change signal pr"
 
                 # Horizontal line
                 hline = bmo.Span(location=0, dimension='width', line_color='black', line_width=3)
-                p.renderers.extend([hline])
+                vline = bmo.Span(location=0, dimension='height', line_color='black', line_width=3)
+                p[k].renderers.extend([vline, hline])
 
                 # Create table
-                data_table = bmo.widgets.DataTable(source=pdf_ts[k], columns=columns, fit_columns=False,
-                                                selectable='checkbox', height=p.plot_height, index_position=None)
+                # Create table
+                columns = [
+                    bmo.widgets.TableColumn(field="index", title="model"),
+                    bmo.widgets.TableColumn(field="{}".format(inp_xaxis.value), title="{}".format(inp_xaxis.value.title()), width=65),
+                    bmo.widgets.TableColumn(field="{}_percentiles".format(inp_xaxis.value), title="{} Perc.".format(inp_xaxis.value.title()), width=70),
+                    bmo.widgets.TableColumn(field="{}".format(inp_yaxis.value), title="{}".format(inp_yaxis.value.title()), width=65),
+                    bmo.widgets.TableColumn(field="{}_percentiles".format(inp_yaxis.value), title="{} Perc.".format(inp_yaxis.value.title()), width=70),
+                ]
 
-                l_panel = bo.layouts.row([p, data_table])
+                data_table = bmo.widgets.DataTable(source=pdf_ts[k], columns=columns, fit_columns=False,
+                                                selectable='checkbox', height=p[k].plot_height, index_position=None)
+
+                l_panel = bo.layouts.row([p[k], data_table])
 
                 ls_tab.append(bmo.widgets.Panel(child=l_panel, title=k))
 
-            tabs = bmo.widgets.Tabs(tabs=ls_tab)
+            tabs = bo.layouts.column([
+                bo.layouts.row([inp_xaxis, inp_yaxis]),
+                bo.layouts.row([bmo.widgets.Tabs(tabs=ls_tab)]),
+            ])
             l.children[-1] = tabs
             inp_gen_upd.label = "Update"
 
@@ -101,6 +115,53 @@ def gen_upd_plot(event):
         </div>
         """
 
+def upd_axis(attrname, old, new):
+
+    # city = city_select.value
+    # plot.title.text = "Weather data for " + cities[city]['title']
+
+    # src = get_dataset(df, cities[city]['airport'], distribution_select.value)
+    # source.data.update(src.data)
+    ls_tab = []
+
+    for k in pdf_ts:
+        # Create plot
+        p[k] = bpl.figure(tools=[TOOLS,hover],toolbar_location="right")
+        p[k].circle(x=inp_xaxis.value, y=inp_yaxis.value,
+                    source = pdf_ts[k],
+                    size=12)
+
+        p[k].xaxis.axis_label = "climate change signal {}".format(inp_xaxis.value)
+        p[k].yaxis.axis_label = "climate change signal {}".format(inp_yaxis.value)
+
+        # Horizontal line
+        hline = bmo.Span(location=0, dimension='width', line_color='black', line_width=3)
+        vline = bmo.Span(location=0, dimension='height', line_color='black', line_width=3)
+        p[k].renderers.extend([vline, hline])
+
+        # Create table
+        columns = [
+            bmo.widgets.TableColumn(field="index", title="model"),
+            bmo.widgets.TableColumn(field="{}".format(inp_xaxis.value), title="{}".format(inp_xaxis.value.title()), width=65),
+            bmo.widgets.TableColumn(field="{}_percentiles".format(inp_xaxis.value), title="{} Perc.".format(inp_xaxis.value.title()), width=70),
+            bmo.widgets.TableColumn(field="{}".format(inp_yaxis.value), title="{}".format(inp_yaxis.value.title()), width=65),
+            bmo.widgets.TableColumn(field="{}_percentiles".format(inp_yaxis.value), title="{} Perc.".format(inp_yaxis.value.title()), width=70),
+        ]
+
+        data_table = bmo.widgets.DataTable(source=pdf_ts[k], columns=columns, fit_columns=False,
+                                        selectable='checkbox', height=p[k].plot_height, index_position=None)
+
+        l_panel = bo.layouts.row([p[k], data_table])
+
+        ls_tab.append(bmo.widgets.Panel(child=l_panel, title=k))
+
+    tabs = bo.layouts.column([
+        bo.layouts.row([inp_xaxis, inp_yaxis]),
+        bo.layouts.row([bmo.widgets.Tabs(tabs=ls_tab)]),
+    ])
+    l.children[-1] = tabs
+
+
 
 # ----------------------------------------------------------------
 #                               MAIN
@@ -117,25 +178,18 @@ hover = bmo.HoverTool(
     ]
 )
 
-# Columns for Table
-columns = [
-    bmo.widgets.TableColumn(field="index", title="model"),
-    bmo.widgets.TableColumn(field="pr_percentiles", title="pr Percentile", width=70),
-    bmo.widgets.TableColumn(field="tasmin_percentiles", title="Tmin Perc.", width=65),
-    bmo.widgets.TableColumn(field="tasmax_percentiles", title="Tmax Perc.", width=65),
-    bmo.widgets.TableColumn(field="rsds_percentiles", title="Rsds Perc.", width=65),
-]
-
 # Tools to show in toolbox
 TOOLS = "pan,wheel_zoom,box_zoom,reset,box_select,save"
 
 # Load description from file
-desc = bmo.Div(text=open(join(dirname(__file__), "description.html")).read(),
+div_desc = bmo.Div(text=open(join(dirname(__file__), "description.html")).read(),
                width=800)
+div_hr = bmo.Div(text="<hr>", width=800)
 
 # Create empty panel with empty tabs
 ls_tab = []
 pdf_ts = {}
+p = {}
 
 tabs = bmo.widgets.Tabs(tabs=ls_tab)
 
@@ -155,8 +209,18 @@ inp_exp = bmo.widgets.Select(title="Experiment:",
                              options=["rcp26", "rcp45", "rcp85"])
 inp_gen_upd= bmo.widgets.Button(label="Create Visualization",
                                 button_type="success")
+
+inp_xaxis = bmo.widgets.Select(title="X-Axis:",
+                             value="tasmax",
+                             options=["tasmin", "tasmax", "pr", "rsds"])
+inp_yaxis = bmo.widgets.Select(title="Y-Axis:",
+                             value="pr",
+                             options=["tasmin", "tasmax", "pr", "rsds"])
 #x_axis = bmo.widgets.Select(title="X Axis", options=sorted(axis_map.keys()), value="Tomato Meter")
 #y_axis = bmo.widgets.Select(title="Y Axis", options=sorted(axis_map.keys()), value="Number of Reviews")
+
+inp_xaxis.on_change('value', upd_axis)
+inp_yaxis.on_change('value', upd_axis)
 
 # Handle on click_events (unfortunately show spinner with js due to lag otherwise)
 inp_gen_upd.on_event(bo.events.ButtonClick, gen_upd_plot)
@@ -177,8 +241,9 @@ inputs = bo.layouts.row([
 ])
 
 l = bo.layouts.layout([
-    bo.layouts.row([desc]),
+    bo.layouts.row([div_desc]),
     inputs,
+    bo.layouts.row([div_hr]),
     bo.layouts.row([tabs]),
 ], sizing_mode='scale_width')
 

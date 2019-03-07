@@ -1,3 +1,13 @@
+#!/usr/bin/env python
+
+"""cmst.py: Climaproof model selection tool class for data preparation and transformation"""
+
+__author__ = "Georg Seyerl"
+__license__ = "MIT"
+__maintainer__ = "Georg Seyerl"
+__email__ = "georg.seyerl@gmail.com"
+__status__ = "Development"
+
 import iris
 from iris.experimental.equalise_cubes import equalise_attributes
 
@@ -15,15 +25,15 @@ class Cmst(object):
     Class for climaproof model selection tool data preparation
     """
 
-    def __init__(self, sel_bbox, sel_time_mean="annual",
-                 sel_experiment='rcp45', data_dir='data'):
+    def __init__(self, sel_bbox, sel_time_mean, sel_experiment, data_dir='data'):
         """
         Args:
-        * call_func (callable):
-            | *call signature*: (obs_cube, ref_cube, sce_cubes,
-                                 \*args, \**kwargs)
-        * observation (:class:`.io.Dataset`):
-            the observation dataset
+        * sell_box (dict):
+            bounding box for averaging: e.g. {"lat": np.array([32, 35]), "lon": np.array([12, 14])}
+        * sel_time_mean (string):
+            the temporal mean method of source dataset (e.g. summer, winter, annual)
+        * sel_experiment (string):
+            the experiment of source dataset (e.g. rcp26, rcp45, rcp85)
         Kwargs:
         * data_dir (path):
             directory where intermediate files will be written

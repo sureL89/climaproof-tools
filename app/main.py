@@ -1,3 +1,15 @@
+#!/usr/bin/env python
+
+"""main.py: Climaproof model selection tool bokeh server application"""
+
+__author__ = "Georg Seyerl"
+__copyright__ = "Copyright 2007, The Cogent Project"
+__license__ = "MIT"
+__maintainer__ = "Georg Seyerl"
+__email__ = "georg.seyerl@gmail.com"
+__status__ = "Development"
+
+
 import bokeh.plotting as bpl
 import bokeh.models as bmo
 import bokeh as bo
@@ -6,6 +18,7 @@ import numpy as np
 import json
 from os.path import dirname, join
 
+# G. Seyerl 2019-03-07
 
 # Workaround to show a spinner while loading ---------------------
 spinner_text = """
@@ -45,7 +58,7 @@ def get_dataset():
                     'lon': np.array(json.loads(inp_lon.value))}
 
     cmst_upd = Cmst(bounding_box, sel_time_mean=inp_time_mean.value,
-                    sel_experiment = inp_exp.value, data_dir="./data")
+                    sel_experiment = inp_exp.value, data_dir="/app/data")
 
     return cmst_upd
 
@@ -72,22 +85,13 @@ def gen_upd_plot(event):
         else:
             cmst_upd = get_dataset()
 
-            for k in pdf_ts:
-                pdf_ts[k] = bmo.ColumnDataSource(data=cmst_upd.get_pandas_df(k))
+            pdf_ts_upd = {}
+            for k in cmst_upd.time_selector:
+                pdf_ts_upd = bmo.ColumnDataSource(data=cmst_upd.get_pandas_df(k))
+                pdf_ts[k].data.update(pdf_ts_upd.data)
 
-                # Create panel
-                ls_tab.append(create_panel(k))
-
-            tabs = bo.layouts.column([
-                bo.layouts.row([inp_xaxis, inp_yaxis]),
-                bo.layouts.row([bmo.widgets.Tabs(tabs=ls_tab)]),
-            ])
-            l.children[-1] = tabs
-
-            #pdf_ts_upd = {}
-            # for k in cmst_upd.time_selector:
-            #     pdf_ts_upd = bmo.ColumnDataSource(data=cmst_upd.get_pandas_df(k))
-            #     pdf_ts[k].data.update(pdf_ts_upd.data)
+                dct_buttons[k].callback = bmo.CustomJS(args=dict(source=pdf_ts[k], filename="{}_{}_{}.csv".format(k, inp_time_mean.value, inp_exp.value)),
+                                                       code=open(join(dirname(__file__), "download.js")).read())
 
         hide_spinner()
     except:
@@ -145,6 +149,7 @@ def create_panel(k):
     down_button = bmo.widgets.Button(label="Download CSV", button_type="primary")
     down_button.callback = bmo.CustomJS(args=dict(source=pdf_ts[k], filename="{}_{}_{}.csv".format(k, inp_time_mean.value, inp_exp.value)),
                                         code=open(join(dirname(__file__), "download.js")).read())
+    dct_buttons[k] = down_button
 
     l_panel = bo.layouts.row([
         bo.layouts.column([p[k]]),
@@ -196,6 +201,7 @@ div_hr = bmo.Div(text="<hr>", width=800)
 
 # Create empty panel with empty tabs
 ls_tab = []
+dct_buttons = {}
 pdf_ts = {}
 p = {}
 

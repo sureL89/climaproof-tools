@@ -8,28 +8,14 @@ USER root
 # pre-requisites
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
-    apt-utils \
-    build-essential \
     libssl-dev && \
+    apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
-#ADD src /opt/src
-#ADD data /opt/data
-
-
-# packages installed globally
-#RUN conda install --quiet --yes \
-#    -c conda-forge 'iris=2.2' && \
-#    -c conda-forge 'ipywidgets' && \
-#    fix-permissions $CONDA_DIR && \
-#    fix-permissions /home/$NB_USER
 
 RUN /opt/conda/bin/conda install -y --quiet \
-    -c conda-forge 'iris=2.2'
-
-#RUN /opt/conda/bin/bokeh serve --show main.py
-#ENTRYPOINT [ "/opt/conda/bin/bokeh", "serve", "--show main.py" ]
-#EXPOSE 5100
+    -c conda-forge 'iris=2.2' && \
+    /opt/conda/bin/conda clean -ay
 
 COPY ./app /app
 

@@ -58,7 +58,7 @@ def get_dataset():
                     'lon': np.array(json.loads(inp_lon.value))}
 
     cmst_upd = Cmst(bounding_box, sel_time_mean=inp_time_mean.value,
-                    sel_experiment = inp_exp.value, data_dir="/app/data")
+                    sel_experiment = inp_exp.value, data_dir="mst/data")
 
     return cmst_upd
 
@@ -77,7 +77,7 @@ def gen_upd_plot(event):
 
             tabs = bo.layouts.column([
                 bo.layouts.row([inp_xaxis, inp_yaxis]),
-                bo.layouts.row([bmo.widgets.Tabs(tabs=ls_tab)]),
+                bo.layouts.row([bmo.widgets.Tabs(tabs=ls_tab, width=800)]),
             ])
             l.children[-1] = tabs
             inp_gen_upd.label = "Update"
@@ -115,7 +115,7 @@ def upd_axis(attrname, old, new):
 
     tabs = bo.layouts.column([
         bo.layouts.row([inp_xaxis, inp_yaxis]),
-        bo.layouts.row([bmo.widgets.Tabs(tabs=ls_tab)]),
+        bo.layouts.row([bmo.widgets.Tabs(tabs=ls_tab, width=800)]),
     ])
     l.children[-1] = tabs
 
@@ -156,7 +156,7 @@ def create_panel(k):
         bo.layouts.column([down_button, data_table]),
         ])
 
-    panel = bmo.widgets.Panel(child=l_panel, title=k)
+    panel = bmo.widgets.Panel(child=l_panel, title=time_description[k])
 
     return panel
 
@@ -168,6 +168,11 @@ def upd_lat_lon(attrname, old, new):
 #                               MAIN
 # ----------------------------------------------------------------
 
+time_description = {
+    "near":"near (2021-2050)",
+    "mid":"mid (2036-2045)",
+    "far":"far (2070-2099)"
+}
 bbox_countries = {
     "Whole Domain": {"lat":[38, 47], "lon": [13, 25]},
     "Albania": {"lat":[39.583, 42.659], "lon": [19, 21.05]},
@@ -177,7 +182,7 @@ bbox_countries = {
     "Macedonia": {"lat":[40.867, 42.373], "lon": [20.405, 23.033]},
     "Montenegro": {"lat":[41.864, 43.548], "lon": [18.438, 20.345]},
     "Serbia": {"lat":[41.844, 46.167], "lon": [18.859, 22.967]},
-    "Slovenia": {"lat":[44.083, 46.933], "lon": [13.427, 17.467]},
+    #"Slovenia": {"lat":[44.083, 46.933], "lon": [13.427, 17.467]},
 }
 
 # Tooltip when hovering over circle

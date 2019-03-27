@@ -1,0 +1,18 @@
+name: iccobs
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=2.7
+  - matplotlib=2.2.3
+  - numpy=1.16.1
+  - netCDF4=1.4.2
+  - pandas=0.24.1
+  - scipy=1.2.0
+  - xarray=0.11.3
+  - wxpython=4.0.3
+  - dask=0.15.2
+  - pykrige=1.4.0
+  - iris=2.2
+  - pip:
+    - Gooey

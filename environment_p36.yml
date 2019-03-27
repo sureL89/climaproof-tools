@@ -1,0 +1,14 @@
+name: p36
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6
+  - xarray==0.11.3
+  - xesmf==0.1.1
+  - jupyter=1.0
+  - matplotlib=3.0.3
+  - netcdf4
+  - ipywidgets
+  - bokeh
+  pip:
+    - PyQt==5.9.2

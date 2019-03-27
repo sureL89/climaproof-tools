@@ -17,13 +17,13 @@ RUN /opt/conda/bin/conda install -y --quiet \
     -c conda-forge 'iris=2.2' && \
     /opt/conda/bin/conda clean -ay
 
-COPY ./app /app
+COPY ./mst /mst
 
 # Add entrypoint (this allows variable expansion)
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 
-WORKDIR /app
+WORKDIR /mst
 ENV ORIGIN="127.0.0.1:5100" PORT="5100" PREFIX="" LOG_LEVEL="info"
 
 ENTRYPOINT ["/entrypoint.sh"]

@@ -65,3 +65,8 @@
 
 ## Model Selection Tool in your Browser
 - Data TODO projections
+
+![Parameters](doc/img/screens_1.png)
+
+![Output](doc/img/screens_2.png)
+

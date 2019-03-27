@@ -1,4 +1,7 @@
-# Climaproof Model Selection Tool
+# Climaproof Toolbox
+
+- TODO: 
+  - Data projections
 
 ## Install Model Selection Tool
 ### Linux
@@ -20,7 +23,6 @@
   ```
 
 #### Docker
-
 - Install Docker
   <https://docs.docker.com/install/linux/docker-ce/ubuntu/>
   Add the user to the docker group. Afterwards you have to log out and in again.
@@ -38,11 +40,9 @@
 - Open your Browser (e.g. Firefox) <http://127.0.0.1:5100/dst>
 
 ### Windows
-
 #### Miniconda
 
 #### Docker
-
 - Activate Virtualization in BIOS
 - Install Docker
   <https://docs.docker.com/docker-for-windows/install/>
@@ -64,9 +64,17 @@
 
 
 ## Model Selection Tool in your Browser
-- Data TODO projections
+- Choose the parameters:
+  - Only bounding boxes supported so far
+  - Latitude and Longitude are automatically updated if you choose a country
 
-![Parameters](doc/img/screens_1.png)
+  ![Parameters](doc/img/screens_1.png)
 
-![Output](doc/img/screens_2.png)
+- After the calculation:
+  - Near, mid and far future
+  - Adapt axes and table
+  - Export csv data for selected parameters
+  - Export plot as png
+
+  ![Output](doc/img/screens_2.png)
 

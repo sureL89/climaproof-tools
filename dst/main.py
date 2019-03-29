@@ -13,15 +13,32 @@ __status__ = "Development"
 import bokeh.plotting as bpl
 import bokeh.models as bmo
 import bokeh as bo
+import holoviews as hv
+import geoviews as gv
+import geoviews.feature as gf
+from cartopy import crs
+import xarray as xr
 import numpy as np
 import json
 import time
+import io
+import contextlib
 from os.path import dirname, join
+
 
 from sys import executable, argv
 from subprocess import check_output
 from PyQt5.QtWidgets import QFileDialog, QApplication
 from downscaling_functions import start_tool
+
+from bokeh.tile_providers import STAMEN_TONER
+from bokeh.models import WMTSTileSource
+
+tiles = {'OpenMap': WMTSTileSource(url='http://c.tile.openstreetmap.org/{Z}/{X}/{Y}.png'),
+         'ESRI': WMTSTileSource(url='https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{Z}/{Y}/{X}.jpg'),
+         'Wikipedia': WMTSTileSource(url='https://maps.wikimedia.org/osm-intl/{Z}/{X}/{Y}@2x.png'),
+         'Stamen Toner': STAMEN_TONER}
+
 
 # G. Seyerl 2019-03-07
 # conda install -c conda-forge xesmf==0.1.1
@@ -49,6 +66,82 @@ spinner_text = """
 </div>
 """
 
+done_text = """
+<div id="myDiv" class="animate-bottom">
+<style scoped>
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  text-align: center;
+  align: left;
+}
+</style>
+  <h1>Done</h1>
+  <div>Check the visualization below</div>
+</div>
+"""
+
+error_text = """
+<div id="myDiv" class="animate-bottom">
+<style scoped>
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  text-align: center;
+  align: left;
+}
+</style>
+  <h1>ERROR</h1>
+  <div>Check the output in your command line</div>
+</div>
+"""
+
+input_text = """
+<input type="file" id="fileUpload">
+<script type="text/javascript">
+function getFilePath(){
+     $('input[type=file]').change(function () {
+         var filePath=$('#fileUpload').val(); 
+     });
+}
+</script>
+"""
+
+
 show_spinner_js = """
 div_spinner.text = spinner_text
 """
@@ -58,6 +151,7 @@ def show_spinner():
 
 def hide_spinner():
     div_spinner.text = ""
+
 # ----------------------------------------------------------------
 
 def gui_fname(div_mod, directory='dst/data'):
@@ -92,23 +186,82 @@ def gui_dirname(div_mod, directory='dst/data'):
 
 def run_tool(event):
     try:
-        start_tool(inp_var.value, inp_data_type.value,
-                   div_src_data.text,
-                   div_dst_topo.text, div_src_topo.text,
-                   div_dir_dest.text,
-                   json.loads(inp_lat.value)[0], json.loads(inp_lat.value)[1],
-                   json.loads(inp_lon.value)[0], json.loads(inp_lon.value)[1],
-                   inp_start_year.value, inp_end_year.value,
-                   regrid_method = inp_reg_method.value)
-    except Exception as e:
-        print(e.message, e.args)
-        pass
+        data_regrid_fn, data_coarse = start_tool(inp_var.value, inp_data_type.value,
+               div_src_data.text,
+               div_dst_topo.text, div_src_topo.text,
+               div_dir_dest.text,
+               json.loads(inp_lat.value)[0], json.loads(inp_lat.value)[1],
+               json.loads(inp_lon.value)[0], json.loads(inp_lon.value)[1],
+               int(inp_start_year.value), int(inp_end_year.value),
+               regrid_method = inp_reg_method.value)
 
-    hide_spinner()
+        data_regrid = xr.open_dataset(data_regrid_fn)
+
+        renderer = gv.renderer('bokeh')
+        dataset_coarse = gv.Dataset(data_coarse['tasmax'].groupby('time.season').mean('time'), kdims=['season', 'lon', 'lat'], crs=crs.PlateCarree())
+        dataset_regrid = gv.Dataset(data_regrid['tasmax'].groupby('time.season').mean('time'), kdims=['season', 'lon', 'lat'], crs=crs.PlateCarree())
+        #hv.Dimension.type_formatters[np.datetime64] = '%Y-%m-%d'
+        l.children[-1] = bo.layouts.row([
+            renderer.get_plot(dataset_coarse.to(gv.Image, ['lon','lat']).options(width=400, colorbar=True, alpha=0.6) * gv.WMTS(tiles['Wikipedia'])).state,
+            renderer.get_plot(dataset_regrid.to(gv.Image, ['lon','lat']).options(width=400, colorbar=True, alpha=0.6) * gv.WMTS(tiles['Wikipedia'])).state,
+        ])
+
+        # renderer = hv.renderer('bokeh')
+        # dataset_coarse = hv.Dataset(data_coarse.tasmax.isel(time=[0]).squeeze())
+        # dataset_regrid = hv.Dataset(data_regrid.tasmax.isel(time=[0]).squeeze())
+        # l.children[-1] = bo.layouts.row([renderer.get_plot(dataset_coarse.to(hv.Image)).state, renderer.get_plot(dataset_regrid.to(hv.Image)).state])
+
+        div_spinner.text = done_text
+    except Exception as e:
+        div_spinner.text = error_text
+        print("------------- ERROR -------------")
+        print(e.args)
+
 
 def upd_lat_lon(attrname, old, new):
     inp_lat.value = str(bbox_countries[new]['lat'])
     inp_lon.value = str(bbox_countries[new]['lon'])
+
+# Plots 
+# %matplotlib inline
+# import matplotlib.pyplot as plt
+# import numpy as np
+# data = xr.open_dataset(data_regrid)
+
+# if variable == 'pr':
+#     nyears = (end_year- start_year) +1
+#     data_mean = data[variable].sum(dim='time')/nyears
+#     data_mean_coarse = data_coarse[variable].sum(dim='time')/nyears
+# else:
+#     data_mean = data[variable].mean(dim='time')
+#     data_mean_coarse = data_coarse[variable].mean(dim='time')
+
+# fig, (ax1,ax2) = plt.subplots(1,2, figsize=(12,4), sharey=True)
+
+# vmin = np.floor(np.nanmin([np.nanmin(data_mean), np.nanmin(data_mean_coarse)]))
+# vmax = np.ceil(np.nanmax([np.nanmax(data_mean), np.nanmax(data_mean_coarse)]))
+
+# data_mean_coarse.plot(ax=ax1, vmin = vmin, vmax = vmax); ax1.set_title('coarse data')
+# data_mean.plot(ax=ax2, vmin = vmin, vmax = vmax); ax2.set_title('interpolated data')
+
+# plt.figure()
+
+# if variable == 'pr':
+#     try:
+#         monthly_data = data.resample(time='M').sum()
+#     except(NotImplementedError):
+#         dti = data.indexes['time'].to_datetimeindex()
+#         data['time'] = dti
+#         monthly_data = data.resample(time='M').sum()
+# else:
+#     try:
+#         monthly_data = data.resample(time='M').mean()
+#     except(NotImplementedError):
+#         dti = data.indexes['time'].to_datetimeindex()
+#         data['time'] = dti
+#         monthly_data = data.resample(time='M').mean()
+        
+# monthly_data[variable].mean(dim={'lat', 'lon'}).plot()
 
 # ----------------------------------------------------------------
 #                               MAIN
@@ -212,6 +365,7 @@ l = bo.layouts.layout([
     bo.layouts.row([div_desc]),
     inputs,
     bo.layouts.row([div_hr]),
+    bo.layouts.row(),
 ], sizing_mode='scale_width')
 
 bpl.curdoc().add_root(l)

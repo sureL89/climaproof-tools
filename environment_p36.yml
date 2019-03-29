@@ -4,11 +4,11 @@ channels:
 dependencies:
   - python=3.6
   - xarray==0.11.3
+  - iris==2.2
   - xesmf==0.1.1
   - jupyter=1.0
   - matplotlib=3.0.3
   - netcdf4
   - ipywidgets
   - bokeh
-  pip:
-    - PyQt==5.9.2
+  - PyQt

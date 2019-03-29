@@ -126,12 +126,10 @@ def regrid_data(data, topo_coarse, topo_fine, variable, regrid_method = 'patch')
         regridder = xe.Regridder(data_det, topo_fine, regrid_method)
         data_regrid_tmp = regridder(data_det[variable])
         
-        import ipdb; ipdb.set_trace()
         data_masked = correct_coast(data_regrid_tmp.data, topo_fine)
         
         data_regrid = np.ones_like(data_regrid_tmp)*np.nan
         for month in range(0,12):
-            print(month)
             data_regrid[data['month']==month+1,:,:] = data_masked[data['month']==month+1,:,:] + (grad[month]* topo_fine['height'].data)  
             
     else:    
@@ -167,8 +165,7 @@ def get_ncattrs(fn_nc):
     model_name = str(nc_fid.getncattr('modelname'))
     return model_cal, model_name
 
-def write_netcdf(array3d, param_name, lat1d, lon1d, start_year, end_year, savedir, filename, model_name, cal='gregorian'):#, freq ='daily'):    
-    
+def write_netcdf(array3d, param_name, lat1d, lon1d, start_year, end_year, savedir, filename, model_name, cal='gregorian'):#, freq ='daily'):
     # create netCDF file
     savename = savedir+filename+'_'+str(start_year)+'-'+str(end_year)+'.nc'
     # check if file already exists - if yes, delete it before writing new file
@@ -418,26 +415,27 @@ def start_tool(variable, data_type,
     
     # load data to dataset
     print('...loading data')
+
     ds = xr.open_dataset(path_to_data)
     topo_fine = xr.open_dataset(path_to_topo_fine)
     topo_coarse = xr.open_dataset(path_to_topo_coarse)
-    
+
     # create a subset of the data (cut out lat/lon bos and time slice)
     print('...subsetting data')
     ds_subset = cut_domain(ds, lat_min, lat_max, lon_min, lon_max, start_year, end_year)
     topo_coarse_subset = cut_domain(topo_coarse, lat_min, lat_max, lon_min, lon_max)
-    
+
     lat_min_fine = ds_subset['lat'].min().data
     lat_max_fine = ds_subset['lat'].max().data
     lon_min_fine = ds_subset['lon'].min().data
     lon_max_fine = ds_subset['lon'].max().data   
-    
+
     topo_fine_subset = cut_domain(topo_fine, lat_min_fine, lat_max_fine, lon_min_fine, lon_max_fine)
-    
+
     # regrid data
     print('...regridding data - this takes some time')
     data_regrid = regrid_data(ds_subset, topo_coarse_subset, topo_fine_subset, variable, regrid_method)
-    
+
     # save regridded data as cf-conform netcdf file
     print('...saving data as a CF-conform netCDF file')
     path_save = path_save+'/'
@@ -452,7 +450,7 @@ def start_tool(variable, data_type,
         write_netcdf_obs(data_regrid, variable, topo_fine_subset['lat'], topo_fine_subset['lon'], start_year, end_year, path_save, filename)
 
     data_regrid_fn = path_save+filename+'_'+str(start_year)+'-'+str(end_year)+'.nc'
-    
+
     return data_regrid_fn, ds_subset
 
 

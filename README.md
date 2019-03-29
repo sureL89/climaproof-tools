@@ -2,6 +2,9 @@
 
 - TODO: 
   - Data projections
+  - Docker maria dst (file selection in browser, data folder mounted in docker)
+  - Matplotlib plots (ev. gleich Holoview Saisonal gemittelt mit xarray)
+  - local maria dst (file selection with pyqt5)
 
 ## Install Model Selection Tool
 ### Linux

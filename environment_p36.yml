@@ -13,5 +13,5 @@ dependencies:
   - bokeh
   - holoviews
   - geoviews
-  - pip:
-    - PyQt==5.9.2
+  - pyqt
+  - nodejs

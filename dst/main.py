@@ -3,7 +3,7 @@
 """main.py: Climaproof model downscaling tool bokeh server application"""
 
 __author__ = "Georg Seyerl"
-__copyright__ = "Copyright 2007, The Cogent Project"
+__copyright__ = "Copyright 2017"
 __license__ = "MIT"
 __maintainer__ = "Georg Seyerl"
 __email__ = "georg.seyerl@gmail.com"
@@ -22,13 +22,12 @@ import numpy as np
 import json
 import time
 import io
-import contextlib
-from os.path import dirname, join
+import os
 
+DOCKER_CONTAINER = os.environ.get('AM_I_IN_A_DOCKER_CONTAINER', False)
+if not DOCKER_CONTAINER == "True":
+    from PyQt5.QtWidgets import QFileDialog, QApplication
 
-from sys import executable, argv
-from subprocess import check_output
-from PyQt5.QtWidgets import QFileDialog, QApplication
 from downscaling_functions import start_tool
 
 from bokeh.tile_providers import STAMEN_TONER
@@ -38,11 +37,6 @@ tiles = {'OpenMap': WMTSTileSource(url='http://c.tile.openstreetmap.org/{Z}/{X}/
          'ESRI': WMTSTileSource(url='https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{Z}/{Y}/{X}.jpg'),
          'Wikipedia': WMTSTileSource(url='https://maps.wikimedia.org/osm-intl/{Z}/{X}/{Y}@2x.png'),
          'Stamen Toner': STAMEN_TONER}
-
-
-# G. Seyerl 2019-03-07
-# conda install -c conda-forge xesmf==0.1.1
-# conda install -c conda-forge xarray==0.11.3
 
 # Workaround to show a spinner while loading ---------------------
 spinner_text = """
@@ -130,18 +124,6 @@ error_text = """
 </div>
 """
 
-input_text = """
-<input type="file" id="fileUpload">
-<script type="text/javascript">
-function getFilePath(){
-     $('input[type=file]').change(function () {
-         var filePath=$('#fileUpload').val(); 
-     });
-}
-</script>
-"""
-
-
 show_spinner_js = """
 div_spinner.text = spinner_text
 """
@@ -154,12 +136,36 @@ def hide_spinner():
 
 # ----------------------------------------------------------------
 
-def gui_fname(div_mod, directory='dst/data'):
+# Workaround for file upload ---------------------
+
+IMPL = """
+import * as p from "core/properties"
+import {LayoutDOM, LayoutDOMView} from "models/layouts/layout_dom"
+
+export class FileInputView extends LayoutDOMView
+  initialize: (options) ->
+    super(options)
+    input = document.createElement("input")
+    input.type = "file"
+    input.onchange = () =>
+      @model.value = input.value
+    @el.appendChild(input)
+
+export class FileInput extends LayoutDOM
+  default_view: FileInputView
+  type: "FileInput"
+  @define {
+    value: [ p.String ]
+  }
+"""
+
+class FileInput(bmo.LayoutDOM):
+    __implementation__ = IMPL
+    value = bo.core.properties.String()
+
+def gui_fname(div_mod, directory='data'):
     """Open a file dialog, starting in the given directory, and return
     the chosen filename"""
-    # run this exact file in a separate process, and grab the result
-    #file = check_output([executable, __file__, directory])
-    #return file.strip()
     app = QApplication([directory])
 
     fname = QFileDialog.getOpenFileName(None, "Select a file...",
@@ -169,12 +175,9 @@ def gui_fname(div_mod, directory='dst/data'):
 
     return fname[0]
 
-def gui_dirname(div_mod, directory='dst/data'):
+def gui_dirname(div_mod, directory='data'):
     """Open a file dialog, starting in the given directory, and return
     the chosen filename"""
-    # run this exact file in a separate process, and grab the result
-    #file = check_output([executable, __file__, directory])
-    #return file.strip()
     app = QApplication([directory])
 
     dir_name = QFileDialog.getExistingDirectory(None, "Select a file...", directory)
@@ -183,33 +186,55 @@ def gui_dirname(div_mod, directory='dst/data'):
 
     return dir_name
 
+# ----------------------------------------------------------------
 
 def run_tool(event):
     try:
-        data_regrid_fn, data_coarse = start_tool(inp_var.value, inp_data_type.value,
-               div_src_data.text,
-               div_dst_topo.text, div_src_topo.text,
-               div_dir_dest.text,
-               json.loads(inp_lat.value)[0], json.loads(inp_lat.value)[1],
-               json.loads(inp_lon.value)[0], json.loads(inp_lon.value)[1],
-               int(inp_start_year.value), int(inp_end_year.value),
-               regrid_method = inp_reg_method.value)
+        if DOCKER_CONTAINER == "True":
+            if not os.path.exists(os.path.join('/data', 'outp')):
+                os.makedirs(os.path.join('/data', 'outp'))
 
-        data_regrid = xr.open_dataset(data_regrid_fn)
+            data_regrid_fn, data_coarse = start_tool(inp_var.value, inp_data_type.value,
+                                                     os.path.join('/data', div_src_data.value.rsplit('\\',1)[-1]),
+                                                     os.path.join('/data', div_dst_topo.value.rsplit('\\',1)[-1]),
+                                                     os.path.join('/data', div_src_topo.value.rsplit('\\',1)[-1]),
+                                                     os.path.join('/data', 'outp'),
+                                                     json.loads(inp_lat.value)[0], json.loads(inp_lat.value)[1],
+                                                     json.loads(inp_lon.value)[0], json.loads(inp_lon.value)[1],
+                                                     int(inp_start_year.value), int(inp_end_year.value),
+                                                     regrid_method = inp_reg_method.value)
+        else:
+            data_regrid_fn, data_coarse = start_tool(inp_var.value, inp_data_type.value,
+                div_src_data.text,
+                div_dst_topo.text, div_src_topo.text,
+                div_dir_dest.text,
+                json.loads(inp_lat.value)[0], json.loads(inp_lat.value)[1],
+                json.loads(inp_lon.value)[0], json.loads(inp_lon.value)[1],
+                int(inp_start_year.value), int(inp_end_year.value),
+                regrid_method = inp_reg_method.value)
 
-        renderer = gv.renderer('bokeh')
-        dataset_coarse = gv.Dataset(data_coarse['tasmax'].groupby('time.season').mean('time'), kdims=['season', 'lon', 'lat'], crs=crs.PlateCarree())
-        dataset_regrid = gv.Dataset(data_regrid['tasmax'].groupby('time.season').mean('time'), kdims=['season', 'lon', 'lat'], crs=crs.PlateCarree())
-        #hv.Dimension.type_formatters[np.datetime64] = '%Y-%m-%d'
-        l.children[-1] = bo.layouts.row([
-            renderer.get_plot(dataset_coarse.to(gv.Image, ['lon','lat']).options(width=400, colorbar=True, alpha=0.6) * gv.WMTS(tiles['Wikipedia'])).state,
-            renderer.get_plot(dataset_regrid.to(gv.Image, ['lon','lat']).options(width=400, colorbar=True, alpha=0.6) * gv.WMTS(tiles['Wikipedia'])).state,
-        ])
+            data_regrid = xr.open_dataset(data_regrid_fn)
 
-        # renderer = hv.renderer('bokeh')
-        # dataset_coarse = hv.Dataset(data_coarse.tasmax.isel(time=[0]).squeeze())
-        # dataset_regrid = hv.Dataset(data_regrid.tasmax.isel(time=[0]).squeeze())
-        # l.children[-1] = bo.layouts.row([renderer.get_plot(dataset_coarse.to(hv.Image)).state, renderer.get_plot(dataset_regrid.to(hv.Image)).state])
+            # Plot
+            renderer = gv.renderer('bokeh')
+            dataset_coarse = gv.Dataset(data_coarse[inp_var.value].groupby('time.season').mean('time'),
+                                        kdims=['season', 'lon', 'lat'],
+                                        crs=crs.PlateCarree())
+            dataset_regrid = gv.Dataset(data_regrid[inp_var.value].groupby('time.season').mean('time'),
+                                        kdims=['season', 'lon', 'lat'],
+                                        crs=crs.PlateCarree())
+
+            gv_plot = renderer.get_plot(
+                (dataset_coarse.to(gv.Image, ['lon','lat']).options(width=350, colorbar=True, alpha=0.6, title="Coarse data") * gv.WMTS(tiles['Wikipedia'])) + \
+                (dataset_regrid.to(gv.Image, ['lon','lat']).options(width=350, colorbar=True, alpha=0.6, title="Downscaled data") * gv.WMTS(tiles['Wikipedia']))
+            )
+
+            inp_sel_season = bmo.widgets.Select(title="Season:",
+                                    value="DJF",
+                                    options=["DJF","JJA","MAM","SON"])
+            inp_sel_season.on_change('value', lambda attrname, old, new: gv_plot.update((new,)))
+            l.children[-1] = bo.layouts.layout(bo.layouts.row([inp_sel_season]),
+                                                bo.layouts.row([gv_plot.state]))
 
         div_spinner.text = done_text
     except Exception as e:
@@ -222,46 +247,6 @@ def upd_lat_lon(attrname, old, new):
     inp_lat.value = str(bbox_countries[new]['lat'])
     inp_lon.value = str(bbox_countries[new]['lon'])
 
-# Plots 
-# %matplotlib inline
-# import matplotlib.pyplot as plt
-# import numpy as np
-# data = xr.open_dataset(data_regrid)
-
-# if variable == 'pr':
-#     nyears = (end_year- start_year) +1
-#     data_mean = data[variable].sum(dim='time')/nyears
-#     data_mean_coarse = data_coarse[variable].sum(dim='time')/nyears
-# else:
-#     data_mean = data[variable].mean(dim='time')
-#     data_mean_coarse = data_coarse[variable].mean(dim='time')
-
-# fig, (ax1,ax2) = plt.subplots(1,2, figsize=(12,4), sharey=True)
-
-# vmin = np.floor(np.nanmin([np.nanmin(data_mean), np.nanmin(data_mean_coarse)]))
-# vmax = np.ceil(np.nanmax([np.nanmax(data_mean), np.nanmax(data_mean_coarse)]))
-
-# data_mean_coarse.plot(ax=ax1, vmin = vmin, vmax = vmax); ax1.set_title('coarse data')
-# data_mean.plot(ax=ax2, vmin = vmin, vmax = vmax); ax2.set_title('interpolated data')
-
-# plt.figure()
-
-# if variable == 'pr':
-#     try:
-#         monthly_data = data.resample(time='M').sum()
-#     except(NotImplementedError):
-#         dti = data.indexes['time'].to_datetimeindex()
-#         data['time'] = dti
-#         monthly_data = data.resample(time='M').sum()
-# else:
-#     try:
-#         monthly_data = data.resample(time='M').mean()
-#     except(NotImplementedError):
-#         dti = data.indexes['time'].to_datetimeindex()
-#         data['time'] = dti
-#         monthly_data = data.resample(time='M').mean()
-        
-# monthly_data[variable].mean(dim={'lat', 'lon'}).plot()
 
 # ----------------------------------------------------------------
 #                               MAIN
@@ -282,7 +267,7 @@ bbox_countries = {
 TOOLS = "pan,wheel_zoom,box_zoom,reset,box_select,save"
 
 # Load description from file
-div_desc = bmo.Div(text=open(join(dirname(__file__), "description.html")).read(),
+div_desc = bmo.Div(text=open(os.path.join(os.path.dirname(__file__), "description.html")).read(),
                width=800)
 div_hr = bmo.Div(text="<hr>", width=800)
 
@@ -301,7 +286,7 @@ inp_start_year = bmo.widgets.TextInput(title="End year:",
                                 value = "1999" )
 inp_end_year = bmo.widgets.TextInput(title="Start year:",
                                 value = "2010" )
-inp_var = bmo.widgets.Select(title="Variable",
+inp_var = bmo.widgets.Select(title="Variable:",
                              value='tasmax',
                              options=["tasmax", "tasmin", "pr", "rsds", "hurs", "sfcWind"])
 
@@ -316,23 +301,6 @@ inp_run_tool = bmo.widgets.Button(label="Run Tool",
                                 button_type="success")
 
 
-inp_src_data= bmo.widgets.Button(label="Source data")
-inp_src_data.on_click(lambda: gui_fname(div_src_data))
-div_src_data = bmo.Div(text="", width=600)
-
-
-inp_src_topo = bmo.widgets.Button(label="Source topo")
-inp_src_topo.on_click(lambda: gui_fname(div_src_topo))
-div_src_topo = bmo.Div(text="", width=600)
-
-inp_dst_topo = bmo.widgets.Button(label="High res. Topo")
-inp_dst_topo.on_click(lambda: gui_fname(div_dst_topo))
-div_dst_topo = bmo.Div(text="", width=600)
-
-inp_dir_dest = bmo.widgets.Button(label="Save directory")
-inp_dir_dest.on_click(lambda: gui_dirname(div_dir_dest))
-div_dir_dest = bmo.Div(text="", width=600)
-
 inp_country.on_change('value', upd_lat_lon)
 
 # Handle on click_events (unfortunately show spinner with js due to lag otherwise)
@@ -341,6 +309,37 @@ inp_run_tool.js_on_event(
     bo.events.ButtonClick,
     bmo.CustomJS(args=dict(div_spinner=div_spinner, spinner_text=spinner_text),
                  code=show_spinner_js))
+
+
+if DOCKER_CONTAINER == "True":
+    inp_src_data = bmo.Div(text="Source data:", width=100)
+    div_src_data = FileInput()
+
+    inp_src_topo = bmo.Div(text="Source topo", width=100)
+    div_src_topo = FileInput()
+
+    inp_dst_topo = bmo.Div(text="High res. Topo", width=100)
+    div_dst_topo = FileInput()
+
+    inp_dir_dest = bmo.Div(text="", width=100)
+    #div_dir_dest = FileInput()
+    div_dir_dest = bmo.Div(text="", width=600) 
+else:
+    inp_src_data= bmo.widgets.Button(label="Source data")
+    inp_src_data.on_click(lambda: gui_fname(div_src_data))
+    div_src_data = bmo.Div(text="", width=600)
+
+    inp_src_topo = bmo.widgets.Button(label="Source topo")
+    inp_src_topo.on_click(lambda: gui_fname(div_src_topo))
+    div_src_topo = bmo.Div(text="", width=600)
+
+    inp_dst_topo = bmo.widgets.Button(label="High res. Topo")
+    inp_dst_topo.on_click(lambda: gui_fname(div_dst_topo))
+    div_dst_topo = bmo.Div(text="", width=600)
+
+    inp_dir_dest = bmo.widgets.Button(label="Save directory")
+    inp_dir_dest.on_click(lambda: gui_dirname(div_dir_dest))
+    div_dir_dest = bmo.Div(text="", width=600)
 
 
 inputs = bo.layouts.row([

@@ -25,6 +25,7 @@ RUN /opt/conda/bin/conda env create -n p36 -f environment_p36.yml
 RUN /opt/conda/bin/conda clean -ay
 RUN echo "source activate p36" > ~/.bashrc
 ENV PATH /opt/conda/envs/p36/bin:$PATH
+ENV AM_I_IN_A_DOCKER_CONTAINER True 
 
 COPY ./mst /app/mst
 COPY ./dst /app/dst

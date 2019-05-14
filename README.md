@@ -53,10 +53,12 @@
     The data you want to downscale has to be directly in
     the folder "LOACL\_PATH\_TO\_DATA". Subfolders are not allowed. 
     
-    ```shell cd climaproof-tools docker
-    network create cproof docker build --rm --network=cproof -t climaproof/tools
-    . docker run -t -i -p 5100:5100 climaproof/tools docker run -t -i -p
-    5100:5100 -v LOCAL_PATH_TO_DATA:/data climaproof/tools --network=cproof ```
+    ```shell 
+    cd climaproof-tools 
+    docker network create cproof 
+    docker build --rm --network=cproof -t climaproof/tools
+    docker run -t -i -p 5100:5100 -v LOCAL_PATH_TO_DATA:/data climaproof/tools --network=cproof
+    ```
 
 - Open your Browser (e.g. Firefox) <http://127.0.0.1:5100/mst>
 - Open your Browser (e.g. Firefox) <http://127.0.0.1:5100/dst>

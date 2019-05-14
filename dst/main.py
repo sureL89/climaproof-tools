@@ -213,28 +213,28 @@ def run_tool(event):
                 int(inp_start_year.value), int(inp_end_year.value),
                 regrid_method = inp_reg_method.value)
 
-            data_regrid = xr.open_dataset(data_regrid_fn)
+        data_regrid = xr.open_dataset(data_regrid_fn)
 
-            # Plot
-            renderer = gv.renderer('bokeh')
-            dataset_coarse = gv.Dataset(data_coarse[inp_var.value].groupby('time.season').mean('time'),
-                                        kdims=['season', 'lon', 'lat'],
-                                        crs=crs.PlateCarree())
-            dataset_regrid = gv.Dataset(data_regrid[inp_var.value].groupby('time.season').mean('time'),
-                                        kdims=['season', 'lon', 'lat'],
-                                        crs=crs.PlateCarree())
+        # Plot
+        renderer = gv.renderer('bokeh')
+        dataset_coarse = gv.Dataset(data_coarse[inp_var.value].groupby('time.season').mean('time'),
+                                    kdims=['season', 'lon', 'lat'],
+                                    crs=crs.PlateCarree())
+        dataset_regrid = gv.Dataset(data_regrid[inp_var.value].groupby('time.season').mean('time'),
+                                    kdims=['season', 'lon', 'lat'],
+                                    crs=crs.PlateCarree())
 
-            gv_plot = renderer.get_plot(
-                (dataset_coarse.to(gv.Image, ['lon','lat']).options(width=350, colorbar=True, alpha=0.6, title="Coarse data") * gv.WMTS(tiles['Wikipedia'])) + \
-                (dataset_regrid.to(gv.Image, ['lon','lat']).options(width=350, colorbar=True, alpha=0.6, title="Downscaled data") * gv.WMTS(tiles['Wikipedia']))
-            )
+        gv_plot = renderer.get_plot(
+            (dataset_coarse.to(gv.Image, ['lon','lat']).options(width=350, colorbar=True, alpha=0.6, title="Coarse data") * gv.WMTS(tiles['Wikipedia'])) + \
+            (dataset_regrid.to(gv.Image, ['lon','lat']).options(width=350, colorbar=True, alpha=0.6, title="Downscaled data") * gv.WMTS(tiles['Wikipedia']))
+        )
 
-            inp_sel_season = bmo.widgets.Select(title="Season:",
-                                    value="DJF",
-                                    options=["DJF","JJA","MAM","SON"])
-            inp_sel_season.on_change('value', lambda attrname, old, new: gv_plot.update((new,)))
-            l.children[-1] = bo.layouts.layout(bo.layouts.row([inp_sel_season]),
-                                                bo.layouts.row([gv_plot.state]))
+        inp_sel_season = bmo.widgets.Select(title="Season:",
+                                value="DJF",
+                                options=["DJF","JJA","MAM","SON"])
+        inp_sel_season.on_change('value', lambda attrname, old, new: gv_plot.update((new,)))
+        l.children[-1] = bo.layouts.layout(bo.layouts.row([inp_sel_season]),
+                                            bo.layouts.row([gv_plot.state]))
 
         div_spinner.text = done_text
     except Exception as e:

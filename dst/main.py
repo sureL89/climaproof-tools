@@ -247,6 +247,12 @@ def upd_lat_lon(attrname, old, new):
     inp_lat.value = str(bbox_countries[new]['lat'])
     inp_lon.value = str(bbox_countries[new]['lon'])
 
+def file_inputs(attrname, old, new):
+    import pdb; pdb.set_trace()
+    pass
+
+
+
 
 # ----------------------------------------------------------------
 #                               MAIN
@@ -303,6 +309,7 @@ inp_run_tool = bmo.widgets.Button(label="Run Tool",
 
 inp_country.on_change('value', upd_lat_lon)
 
+
 # Handle on click_events (unfortunately show spinner with js due to lag otherwise)
 inp_run_tool.on_event(bo.events.ButtonClick, run_tool)
 inp_run_tool.js_on_event(
@@ -313,17 +320,23 @@ inp_run_tool.js_on_event(
 
 if DOCKER_CONTAINER == "True":
     inp_src_data = bmo.Div(text="Source data:", width=100)
-    div_src_data = FileInput()
+    # div_src_data = FileInput()
+    # div_src_data = bmo.Div(text="""<input id="src_data" type="file">""")
+    div_src_data = bmo.widgets.TextInput(value="/tmp")
+    # div_src_data.on_change('value', file_inputs)
 
     inp_src_topo = bmo.Div(text="Source topo", width=100)
-    div_src_topo = FileInput()
+    # div_src_topo = FileInput()
+    #div_src_topo = bmo.Div(text="""<input id="src_topo" type="file">""")
+    div_src_topo = bmo.widgets.TextInput(value="/tmp")
 
     inp_dst_topo = bmo.Div(text="High res. Topo", width=100)
-    div_dst_topo = FileInput()
+    # div_dst_topo = FileInput()
+    #div_dst_topo = bmo.Div(text="""<input id="dst_topo" type="file">""")
+    div_dst_topo = bmo.widgets.TextInput(value="/tmp")
 
     inp_dir_dest = bmo.Div(text="", width=100)
-    #div_dir_dest = FileInput()
-    div_dir_dest = bmo.Div(text="", width=600) 
+    div_dir_dest = bmo.Div(text="", width=600)
 else:
     inp_src_data= bmo.widgets.Button(label="Source data")
     inp_src_data.on_click(lambda: gui_fname(div_src_data))
